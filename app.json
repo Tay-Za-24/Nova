@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Nova",
+    "slug": "TaskNoteApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nova.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/NovaSplashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#bbcbe3"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nova.png",
+        "backgroundColor": "#bbcbe3"
+      },
+      "package": "com.tayza.TaskNoteApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bebd4d48-9451-41da-8216-8512071311a9"
+      }
+    }
+  }
+}
